@@ -1,0 +1,7 @@
+# Treat all Dart files as Dart
+*.dart linguist-language=Dart
+
+# Ignore build and IDE folders for language stats
+/build/* linguist-vendored
+/.idea/* linguist-vendored
+*.iml linguist-vendored
