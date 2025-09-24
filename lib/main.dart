@@ -193,7 +193,6 @@ class _TabBarExampleState extends State<TabBarExample>
               final labels = ["Chat", "Status", "Call"];
               final isSelected = _selectedIndex == index;
               return Expanded(
-                // ❗ MODIFIED CODE: Replaced GestureDetector with InkWell
                 child: InkWell(
                   onTap: () {
                     _controller.index = index;
